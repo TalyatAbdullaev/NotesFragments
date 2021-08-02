@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_label_text">Что использовать?</string>
+    <string name="room">Room</string>
+    <string name="btn_add_note">Добавить</string>
+    <string name="title">Заметки</string>
+</resources>
