@@ -6,10 +6,10 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-
+    viewBinding.enabled = true
 
     defaultConfig {
-        viewBinding.enabled = true
+
         applicationId "com.example.notesfragments"
         minSdkVersion 21
         targetSdkVersion 30

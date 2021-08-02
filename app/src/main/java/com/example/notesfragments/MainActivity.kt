@@ -12,12 +12,12 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var mToolbar: androidx.appcompat.widget.Toolbar
     lateinit var mNavControlller: NavController
-    private var _binding: ActivityMainBinding? = null
-    val mBinding get() = _binding!!
+    lateinit var binding: ActivityMainBinding
+    val mBinding get() = binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        _binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
 
         APP_ACTIVITY = this
